@@ -70,14 +70,17 @@ To collect this data, we used the principle of **web scraping**.
 
 https://www.nba.com/stats/players/traditional/?sort=PTS&dir=-1&Season=2018-19&SeasonType=Regular%20Season 
 
-![image](https://user-images.githubusercontent.com/105392989/174577514-17d020de-5935-4184-87b9-69d6e087ebe2.png)
-
+<div id="statistics" align = "center">
+  <img src="https://user-images.githubusercontent.com/105392989/174577514-17d020de-5935-4184-87b9-69d6e087ebe2.png" width="900">
+</div>
 
 2. For the salaries we used this website: 
 
 https://hoopshype.com/salaries/players/2018-2019/
 
-![image](https://user-images.githubusercontent.com/105392989/174577635-42585619-7848-463e-8847-33b27514c336.png)
+<div id="salaries" align = "center">
+  <img src="https://user-images.githubusercontent.com/105392989/174577635-42585619-7848-463e-8847-33b27514c336.png" width="900">
+</div>
 
 Small precision: We decided to use the salaries that have *not been adjusted for inflation*. These are the salaries in the red box.
 
@@ -87,7 +90,9 @@ Once we had access to all of our data following the harvest, the question of sto
 **In our case, we first exported the data in CSV** format in order to verify that the table created was in accordance with our dataframe and with our expectations.  
 Here is the resulting excel:
 
-![image](https://user-images.githubusercontent.com/105392989/174578412-764a74fa-22ae-486c-b428-44fc80ecc1a0.png)
+<div id="excel result" align = "center">
+  <img src="https://user-images.githubusercontent.com/105392989/174578412-764a74fa-22ae-486c-b428-44fc80ecc1a0.png" width="900">
+</div>
 
 In order to meet the requirements, we also opted for the **relational database management system** known as **SQLite** in order to create a real database and not a simple table unlike CSV. Indeed, in the case of our project, we have **little data** and **not confidential**, so SQLite will be able to amply support this load.  
 
