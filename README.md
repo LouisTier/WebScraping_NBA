@@ -68,18 +68,16 @@ To collect this data, we used the principle of **web scraping**.
 
 1. For the player statistics, we used the following site :
 
-https://www.nba.com/stats/players/traditional/?sort=PTS&dir=-1&Season=2018-19&SeasonType=Regular%20Season 
-
 <div id="statistics" align = "center">
   <img src="https://user-images.githubusercontent.com/105392989/174577514-17d020de-5935-4184-87b9-69d6e087ebe2.png" width="900">
+  https://www.nba.com/stats/players/traditional/?sort=PTS&dir=-1&Season=2018-19&SeasonType=Regular%20Season 
 </div>
 
 2. For the salaries we used this website: 
 
-https://hoopshype.com/salaries/players/2018-2019/
-
 <div id="salaries" align = "center">
   <img src="https://user-images.githubusercontent.com/105392989/174577635-42585619-7848-463e-8847-33b27514c336.png" width="900">
+  https://hoopshype.com/salaries/players/2018-2019/
 </div>
 
 Small precision: We decided to use the salaries that have *not been adjusted for inflation*. These are the salaries in the red box.
